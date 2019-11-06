@@ -1,0 +1,27 @@
+.device-data-tab-table {
+  position: absolute;
+  top: 24px;
+  bottom: 24px;
+  right: 24px;
+  left: 24px;
+}
+.device-data-tab-table {
+  &.policy-data-tab {
+    position: relative;
+    top: inherit;
+    bottom: inherit;
+    right: inherit;
+    left: inherit;
+  }
+}
+.button-wrapper {
+  text-align: right;
+  margin-bottom: 10px;
+}
+.ag-cell.config-commands {
+  height: auto !important;
+  white-space: pre-wrap;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier', monospace;
+  line-height: 18px;
+  font-size: 13px;
+}

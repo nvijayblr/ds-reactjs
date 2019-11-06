@@ -1,0 +1,24 @@
+.device-search-skeleton {
+  ul {
+    padding: 0;
+    margin-top: 53px;
+    &.ant-skeleton-paragraph > li {
+      height: 38px;
+      margin: 0 0 38px;
+    }
+  }
+}
+.table-actions-search-results {
+  margin-top: 59px;
+  height: 24px;
+  .global-content-devices & {
+    margin-top: 0;
+  }
+}
+.device-status-badge {
+  .ant-badge-status-dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 50% !important;
+  }
+}

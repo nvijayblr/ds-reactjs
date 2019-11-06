@@ -1,0 +1,38 @@
+.device-data-tab {
+  position: absolute;
+  top: 24px;
+  bottom: 24px;
+  left: 24px;
+  right: 24px;
+  .column {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    &.metadata-column {
+      width: 400px;
+      left: 0;
+      &.meta-only {
+        width: 100%;
+      }
+    }
+    &.tabs-column {
+      left: 400px;
+      right: 0;
+      .ant-tabs {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 24px;
+        right: 0;
+        .ant-tabs-content {
+          top: 60px;
+          .ant-tabs-tabpane {
+            .device-data-tab-table {
+              position: static;
+            }
+          }
+        }
+      }
+    }
+  }
+}

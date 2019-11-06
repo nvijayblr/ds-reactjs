@@ -1,0 +1,76 @@
+$icons-path: '~ag-grid-community/src/styles/balham-icons/';
+$border-color: #e8e8e8;
+$header-background-color: #fafafa;
+$font-size: 14px;
+$header-icon-size: 14px;
+$secondary-font-size: 14px;
+$grid-size: 5px; // N.B. Have to adjust `headerHeight` and `rowHeight` in `<AgGridReact>`if change this value, and vica-versa
+$hover-color: #e6f7ff;
+
+@import '~ag-grid-community/src/styles/ag-grid.scss';
+@import '~ag-grid-community/src/styles/ag-theme-balham.scss';
+
+.ag-theme-balham {
+  color: rgba(0, 0, 0, 0.65);
+  .ag-font-style {
+    user-select: initial;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    -webkit-user-select: text;
+  }
+  .ag-header {
+    color: rgba(0, 0, 0, 0.65);
+    .ant-select-selection-selected-value {
+      font-weight: normal;
+    }
+  }
+  .ag-floating-filter-body input {
+    height: 24px;
+    margin: 0;
+    width: 100%;
+  }
+  .ag-floating-filter-body input,
+  input[type='text'],
+  input[type='date'] {
+    border: 1px solid #d9d9d9;
+    padding: 1px 7px;
+  }
+  .ant-select .ant-select-search__field {
+    border: 0;
+    padding: 1px 0;
+  }
+  .ag-filter-body-wrapper {
+    padding: 10px 10px 0 10px;
+    input[type='radio'],
+    input[type='text'],
+    input[type='date'] {
+      margin-bottom: 10px;
+    }
+    input[type='radio'] {
+      margin-bottom: 8px;
+    }
+    .ag-filter-select {
+      margin-top: 0;
+      margin-bottom: 10px;
+      border: 1px solid #d9d9d9;
+    }
+  }
+  .ag-header-cell-label,
+  .ag-floating-filter-button button,
+  .ag-paging-button {
+    cursor: pointer;
+  }
+  .ag-menu {
+    z-index: 1001;
+  }
+  .ag-paging-panel {
+    height: 30px;
+  }
+  // This fixes the issue with misaligned pagination controls (in the modal) in Firefox
+  button[ref='btFirst'],
+  button[ref='btPrevious'],
+  button[ref='btNext'],
+  button[ref='btLast'] {
+    text-indent: -9999px;
+  }
+}

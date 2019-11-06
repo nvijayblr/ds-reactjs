@@ -1,0 +1,73 @@
+.global-content {
+  &.global-content-policies {
+    padding: 0;
+  }
+}
+.policies {
+  .selects {
+    background: #fafafa;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 15px;
+    padding: 16px 24px;
+    border-bottom: 1px solid #efefef;
+  }
+  .policy-btn-download {
+    position: absolute;
+    right: 0;
+    top: 0;
+    top: -40px;
+    z-index: 1;
+  }
+  .spin-wrapper {
+    top: 64px;
+    z-index: 1;
+  }
+  .ingestion-date-icon {
+    font-size: 22px;
+    position: relative;
+    top: 3px;
+    margin-right: 3px;
+  }
+  .ingestion-date {
+    position: relative;
+    top: 64px;
+  }
+  .ant-tabs {
+    position: absolute;
+    top: 73px;
+    bottom: 24px;
+    left: 24px;
+    right: 24px;
+  }
+  .ant-tabs-content {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .ant-tabs-tabpane {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .device-data-tab-table-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .device-data-tab-table {
+    right: 0;
+    left: 0;
+  }
+  .policy-data-table-wrapper {
+    padding: 0 24px;
+  }
+}

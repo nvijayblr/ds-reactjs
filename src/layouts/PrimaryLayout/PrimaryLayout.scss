@@ -1,0 +1,15 @@
+.ant-layout {
+  &.global-layout {
+    background: #fff;
+  }
+}
+
+.global-content {
+  padding: 24px 20px;
+}
+
+// IE11 fixes
+_:-ms-fullscreen,
+:root .ant-layout.global-layout {
+  display: block;
+}

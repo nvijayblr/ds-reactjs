@@ -1,0 +1,22 @@
+.metadata-table {
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 1;
+  .ag-body-container.ag-layout-auto-height {
+    min-height: auto;
+  }
+  .ag-header-row {
+    background: #4e4e4e;
+    color: #fff;
+  }
+  .ag-row {
+    background: #fafafa;
+    border: none;
+  }
+}
+
+// IE11 fixes
+_:-ms-fullscreen,
+:root .metadata-table .ag-body-viewport {
+  overflow-x: hidden;
+}

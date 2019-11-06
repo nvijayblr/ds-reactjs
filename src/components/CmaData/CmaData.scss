@@ -1,0 +1,12 @@
+.cma-data {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: scroll;
+  padding: 8px 24px 24px 24px;
+  .ant-alert {
+    margin-top: 15px;
+  }
+}

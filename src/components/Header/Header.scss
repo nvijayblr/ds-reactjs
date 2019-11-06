@@ -1,0 +1,28 @@
+.ant-layout-header {
+  &.global-header {
+    padding: 0 20px;
+    display: flex;
+    background: #00519e;
+    &.ant-layout-header {
+      height: 50px;
+      line-height: 50px;
+    }
+    .ant-menu-dark {
+      background: #00519e;
+      .ant-menu-item {
+        color: #fff;
+      }
+    }
+    .ant-menu.ant-menu-dark .ant-menu-item-selected,
+    .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+      background-color: #fff;
+    }
+    .ant-menu-dark .ant-menu-item-selected > a,
+    .ant-menu-dark .ant-menu-item-selected > a:hover {
+      color: #00519e;
+    }
+    .menu-dark .ant-menu-item > a {
+      color: #fff;
+    }
+  }
+}

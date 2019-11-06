@@ -1,0 +1,22 @@
+.metadata-table-vertical {
+  .ag-header {
+    display: none;
+  }
+  .ag-cell {
+    display: block;
+    white-space: normal;
+  }
+  .ag-cell:first-child {
+    background: #fafafa;
+    font-weight: 600;
+  }
+  .ag-cell:last-child {
+    background: #fff;
+  }
+}
+
+// IE11 fixes
+_:-ms-fullscreen,
+:root .metadata-table-vertical .ag-body-viewport {
+  overflow-x: hidden;
+}

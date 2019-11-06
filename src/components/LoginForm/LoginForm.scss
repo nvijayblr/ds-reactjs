@@ -1,0 +1,36 @@
+.login-form {
+  &.ant-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 24px;
+    .ant-row {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .ant-input {
+      border: none;
+    }
+    .login-form-forgot {
+      float: right;
+    }
+    .login-form-button {
+      width: 100%;
+    }
+    .login-form-button[disabled] {
+      color: #fff;
+      background-color: #1890ff;
+      border-color: #1890ff;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+      box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+    }
+    .sh-password {
+      color: rgba(0, 0, 0, 0.45);
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        color: rgba(0, 0, 0, 0.7);
+        transition: 0.3s;
+      }
+    }
+  }
+}

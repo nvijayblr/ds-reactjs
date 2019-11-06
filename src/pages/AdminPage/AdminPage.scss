@@ -1,0 +1,94 @@
+.global-content.global-content-admin {
+  padding: 0;
+  margin: 0;
+}
+.admin-page {
+  .ant-layout {
+    background: #fff !important;
+  }
+  .admin-page-nav {
+    margin: 10px 0;
+  }
+  .edit-wrapper {
+    .ant-btn {
+      padding: 0;
+    }
+    &.center {
+      .anticon {
+        margin: 0 8px 0 6px;
+      }
+    }
+    .anticon {
+      margin-right: 5px;
+      cursor: pointer;
+      color: rgba(0, 0, 0, 0.65);
+    }
+  }
+  .ant-menu-vertical {
+    .ant-menu-item {
+      padding: 0px !important;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .ant-menu-inline {
+    .ant-menu-item {
+      padding-left: 15px !important;
+    }
+  }
+  .ant-menu-inline-collapsed {
+    width: 50px;
+  }
+  button {
+    &.hamburger-button {
+      background: transparent;
+      color: rgba(255, 255, 255, 0.5);
+      border: 0;
+      margin: 10px 0 20px;
+      font-size: 21px;
+      padding: 0 13px;
+      cursor: pointer;
+      text-align: center;
+      outline: 0;
+      &:hover,
+      &:active,
+      &:visited,
+      &:focus {
+        background: transparent;
+        color: #fff;
+        outline: 0;
+      }
+    }
+  }
+}
+
+.admin-modal {
+  &.ant-modal {
+    min-width: 650px;
+  }
+  .ant-form-item-label {
+    line-height: inherit;
+  }
+  .ant-form-item {
+    margin-bottom: 12px;
+  }
+  .has-error .ant-form-explain,
+  .has-error .ant-form-split {
+    font-size: 12px;
+  }
+  .ant-input-number {
+    width: 100%;
+  }
+  .ant-control-hint {
+    position: relative;
+    top: -11px;
+    font-size: 11px;
+    color: #585858;
+    text-align: right;
+    display: block;
+    &.session-log {
+      text-align: left;
+      top: -17px;
+    }
+  }
+}

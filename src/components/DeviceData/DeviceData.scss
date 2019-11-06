@@ -1,0 +1,48 @@
+.device-data {
+  .ingestion-date {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+    .ingestion-date-icon {
+      font-size: 25px;
+      margin-right: 10px;
+      position: relative;
+      top: -1px;
+    }
+    .ingestion-date-select {
+      width: 320px;
+    }
+  }
+  .category-tabs {
+    position: absolute;
+    top: 191px;
+    bottom: 24px;
+    left: 24px;
+    right: 24px;
+    .ant-tabs-content {
+      position: absolute;
+      top: 40px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      .ant-tabs-tabpane {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+  .sh-password {
+    span {
+      margin-right: 10px;
+    }
+    .anticon {
+      cursor: pointer;
+      margin-right: 5px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.login-page {
+  min-width: 400px;
+  .brand {
+    text-align: center;
+    margin-bottom: 12px;
+    .logo {
+      height: 40px;
+      width: 40px;
+      background-size: 40px 40px;
+      top: -4px;
+    }
+    .name {
+      font-size: 36px;
+    }
+  }
+}
